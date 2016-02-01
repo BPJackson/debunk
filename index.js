@@ -42,7 +42,7 @@ module.exports = {
     return president
   },
   howOldDoesEachCandidateActDuringDebates: function(president){
-    if (president === "DonaldTrump") {
+    if (president === "Donald Trump") {
       return 3
     }
     else {
