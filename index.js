@@ -1,4 +1,5 @@
 var destupidify = require("destupidify")
+var candidates = ["Hillary", "Bernie", "Donald Trump", "Jill Stein", "Marco Rubio", "Ted Cruz"]
 
 function whatIsARandomItemFromTheCollection(collection) {
   return collection[Math.floor(Math.random()*collection.length)];
@@ -37,8 +38,16 @@ module.exports = {
     return whatIsARandomItemFromTheCollection(shibleyIsms);
   },
   whosGoingToBeTheNextPresident: function(){
-    var candidates = ["Hillary", "Bernie", "Donald Trump", "Jill Stein", "Marco Rubio", "Ted Cruz"]
-    return whatIsARandomItemFromTheCollection(candidates);
+    var president = whatIsARandomItemFromTheCollection(candidates);
+    return president
+  },
+  howOldDoesEachCandidateActDuringDebates: function(president){
+    if (president === "DonaldTrump") {
+      return 3
+    }
+    else {
+      return 17
+    }
   },
   doesItEqualThree: function(input){
     if(input === 3) {

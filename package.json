@@ -9,6 +9,6 @@
   "author": "skuttleman",
   "license": "ISC",
   "dependencies": {
-    "destupidify": "^1.0.0"
+    "destupidify": "^1.0.1"
   }
 }
