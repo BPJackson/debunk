@@ -9,7 +9,7 @@
 3.4\.  [Example 4](#example4)  
 3.5\.  [Example 5](#example5)  
 3.6\.  [Example 6](#example6)  
-3.7\.  [Example 7](#example7)   
+3.7\.  [Example 7](#example7)  
 4\.  [Testing](#testing)  
 5\.  [Why DeBunk](#whydebunk)  
 5.1\.  [Compare us to Our Competitors](#comparetocompetitors)  
@@ -93,6 +93,7 @@ debunk.whatDoesShibleyHaveToSay(); // "Right on"
 ```
 
 ###3.7\. Example 7
+
 ```js 
 var debunk = require('debunk'); debunk.whosGoingToBeTheNextPresident(); // "Donald Trump"
 debunk.howOldDoesEachCandidateActDuringDebates(president); // 3
